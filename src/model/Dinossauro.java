@@ -12,13 +12,13 @@
 
 package model;
 
-public class Dinosauro {
+public class Dinossauro {
 	private int energia;
 	private int velocidade;
 	private int temperatura;
 	private boolean humor;
 
-	public Dinosauro() {
+	public Dinossauro() {
 
 		this.energia = 0;
 		this.velocidade = 0;
@@ -31,7 +31,7 @@ public class Dinosauro {
 
 		if (energia > 0) {
 
-			System.out.println("Dinosauro esta atirando");
+			System.out.println("Dinossauro esta atirando");
 			energia--;
 			this.humor = true;
 
@@ -47,7 +47,7 @@ public class Dinosauro {
 
 			if (velocidade > 0) {
 
-				System.out.println("Dinosauro esta correndo");
+				System.out.println("Dinossauro esta correndo");
 				energia--;
 				this.humor = true;
 
@@ -62,7 +62,7 @@ public class Dinosauro {
 	public void comer() {
 
 		if (energia < 10) {
-			System.out.println("Dinosauro estaa comendo");
+			System.out.println("Dinossauro estaa comendo");
 			this.energia++;
 			this.humor = true;
 		} else {
@@ -75,7 +75,7 @@ public class Dinosauro {
 
 		if (energia > 0) {
 
-			System.out.println("Dinosauro esta atirando");
+			System.out.println("Dinossauro esta atirando");
 			energia--;
 			this.humor = true;
 
@@ -90,7 +90,7 @@ public class Dinosauro {
 		if (energia > 0) {
 			if (velocidade < 10) {
 
-				System.out.println("Dinosauro esta no Sol");
+				System.out.println("Dinossauro esta no Sol");
 				this.velocidade++;
 				this.energia--;
 				this.humor = true;
@@ -104,7 +104,7 @@ public class Dinosauro {
 
 	public void ficaNaSombra() {
 
-		System.out.println("Dinosauro esta na sombra");
+		System.out.println("Dinossauro esta na sombra");
 
 		if (energia < 10) {
 

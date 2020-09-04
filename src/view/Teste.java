@@ -2,13 +2,13 @@ package view;
 
 import java.util.Scanner;
 
-import model.Dinosauro;
+import model.Dinossauro;
 
 public class Teste {
 
 	public static void main(String[] args) {
 
-		Dinosauro skeep = new Dinosauro();
+		Dinossauro skeep = new Dinossauro();
 		Scanner scan = new Scanner(System.in);
 		String textoMaiusculo;
 		char letra;

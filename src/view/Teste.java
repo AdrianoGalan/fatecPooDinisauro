@@ -43,7 +43,7 @@ public class Teste {
 					skeep.comer();
 					break;
 
-				default:System.out.println("Opição invalida");
+				default:System.out.println();
 					break;
 				}
 
